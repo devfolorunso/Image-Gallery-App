@@ -1,0 +1,259 @@
+body{
+    margin:0px;
+    background-image:url(5.jpeg);
+  	background-position:center;
+  	background-size:cover;
+  	background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+@font-face{
+    font-family:'OpenSans-Bold';
+    src:url('FONTZ/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face{
+    font-family:'Kurale-Regular';
+    src:url('FONTZ/Kurale/Kurale-Regular.ttf');
+}
+
+/*header starts here*/
+
+ .check{
+  border-radius:50%;
+  width:15px;
+  height:15px;
+  border:1px solid black;
+}
+
+.checky{
+  border-radius:50%;
+  width:25px;
+  height:25px;
+  border:1px solid black;
+}
+
+.header{
+	width:99.6%;
+	background-color:black;
+	margin-right:0.2%;
+	margin-left:0.2%;
+}
+
+ .header p{
+	float:right;
+	color:white;
+	margin-right:0%;
+	padding:30px;
+	width:6%;
+}
+
+.header a:hover{
+	color:#4CAF50;
+}
+
+.header a{
+	text-decoration:none;
+	margin-left:1px;
+	margin-right:1px;
+	position:relative;
+	color:white;
+	font-family:'Kurale-Regular';
+}
+
+.header h3{
+	float:left;
+	color:white;
+	padding:30px;
+	font-family:'OpenSans-Bold';
+}
+
+.clearboth{
+	clear:both;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    float:right;
+    margin-right:3%;
+    margin-top:1%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 1.5s;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity:1;
+  right: 0;
+}
+
+
+.clearboth{
+    clear:both;
+}
+
+.photo img{
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  border:1px solid #000;
+  float:right;
+  margin-right:3%;
+  transition:0.5s all;
+}
+
+.photo img:hover{
+  transform: rotateY(200deg);
+  transform-style:preserve-3d;
+}
+
+
+.all{
+  float:left;
+  background-color:rgba(0,0,0,0.5);
+  width:80%;
+  padding:20px;
+  border:1px solid green;
+  border-radius:8px;
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left:8%;
+  /* text-align: center; */
+}
+
+.all p{
+  font-family:'Kurale-Regular';
+  color:white;
+  font-feature-settings:normal;
+  font-size:20px;
+}
+
+input[type=submit]{
+  color:white;
+  background-color:inherit;
+  padding:5px;
+  cursor:auto;
+  width:110px;
+  height:35px;
+  margin-top:1%;
+  border:1px solid black;
+}
+
+input[type=submit]:hover{
+  background-color:#4CAF50;
+  transition:1s;
+  opacity:1;
+  color:black;
+  border:1px solid white;
+}
+
+input[type=submit]:active{
+  box-shadow: 2px 2px 2px 2px #fff;
+  transform: translateX(4px);
+  transform:rotateY(50deg);
+}
+
+
+.logo{
+	float:right;
+  margin-right:3.9%;
+  margin-top:-2%;
+}
+
+.logo a{
+	margin-right:30px;
+	margin-left:30px;
+}
+
+.logo a img{
+  width:35px;
+  height:35px;
+	border-radius:10px;
+	border:1px solid black;
+  transition:.5s all;
+}
+
+
+.logo img:hover{
+  -webkit-transform:rotateY(360deg);
+  -moz-transform:rotateY(360deg);
+  transform: rotateY(360deg);
+  -o-transform:rotateY(360deg);
+  -ms-transform:rotateY(360deg);
+}
+/* .border{
+  border:2px solid black;
+  width:100%;
+  margin-top:-3%;
+  opacity:0.4;
+} */
+
+.photo p{
+  font-family: 'OpenSans-Bold';
+  font-size:30px;
+}

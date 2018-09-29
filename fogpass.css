@@ -1,0 +1,111 @@
+body{
+    margin:0px;
+    background-image:url(5.jpeg);
+  	background-position:center;
+  	background-size:cover;
+  	background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+@font-face{
+    font-family:'OpenSans-Bold';
+    src:url('FONTZ/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face{
+    font-family:'Kurale-Regular';
+    src:url('FONTZ/Kurale/Kurale-Regular.ttf');
+}
+
+.header{
+	width:99.6%;
+	background-color:black;
+	margin-right:0.2%;
+	margin-left:0.2%;
+}
+
+ .header p{
+	float:right;
+	color:white;
+	margin-right:10%;
+	padding:30px;
+	width:6%;
+  font-size:20px;
+}
+
+.header a:hover{
+	color:#4CAF50;
+}
+
+.header a{
+	text-decoration:none;
+	margin-left:1px;
+	margin-right:1px;
+	position:relative;
+	color:white;
+	font-family:'Kurale-Regular';
+}
+
+.header h3{
+	float:left;
+	color:white;
+	padding:30px;
+	font-family:'OpenSans-Bold';
+}
+
+.clearboth{
+	clear:both;
+}
+
+.content{
+    margin-top:10%;
+    text-align:center;
+    background-color:rgba(0,0,0,0.5);
+    width:50%;
+    margin-left:25%;
+    padding-top:3%;
+    margin-bottom:5%;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.content label{
+    text-align:center;
+    font-family:'OpenSans-Bold';
+}
+
+.content input{
+    width:80%;
+    height:30px;
+    margin-top:1%;
+}
+
+button{
+    margin-top:5%;
+    text-decoration:none;
+    width:25%;
+    height:30px;
+    color:#fff;
+    opacity:1;
+    font-size:18px;
+    font-family:'OpenSans-Bold';
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-bottom:5%;
+    background-color:#4CAF50;
+    border:none;
+}
+
+.pass{
+  background-color:rgba(0,0,0,0.5);
+  color:white;
+  border:1px solid #fff;
+  width:30%;
+  margin-left:32.5%;
+  padding:10px;
+  font-size:20px;
+}
